@@ -9,6 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.static("assets"));
+app.use(express.urlencoded());
 
 //Routes
 app.use("/auth", authRouter);
