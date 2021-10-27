@@ -17,7 +17,7 @@ function App() {
     setIsAuth(authState.isAuth);
   }, [authState.isAuth]);
   return (
-    <Router>
+    <Router basename="http://hieule21.github.io/cv-builder">
       <Switch>
         <Route path="/login">
           {!isAuth ? <Login /> : <Redirect to="/home"></Redirect>}
