@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ec7cb86fc76f9823651a7276b67cf89",
+    "revision": "235e8c6440f892c2efb188c9ed3d7628",
     "url": "/cv-builder/index.html"
   },
   {
-    "revision": "0e6b46e436673f274249",
+    "revision": "77a38385fb5e7a4c3dff",
     "url": "/cv-builder/static/css/2.c27a359e.chunk.css"
   },
   {
-    "revision": "8249fa205a6cdf033290",
+    "revision": "c9d2c812eea33ed4e7f5",
     "url": "/cv-builder/static/css/main.55564a17.chunk.css"
   },
   {
-    "revision": "0e6b46e436673f274249",
-    "url": "/cv-builder/static/js/2.cee49ffd.chunk.js"
+    "revision": "77a38385fb5e7a4c3dff",
+    "url": "/cv-builder/static/js/2.3accd874.chunk.js"
   },
   {
     "revision": "7022d70cf63270ccbd5e57be01f2936f",
-    "url": "/cv-builder/static/js/2.cee49ffd.chunk.js.LICENSE.txt"
+    "url": "/cv-builder/static/js/2.3accd874.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8249fa205a6cdf033290",
-    "url": "/cv-builder/static/js/main.9393b199.chunk.js"
+    "revision": "c9d2c812eea33ed4e7f5",
+    "url": "/cv-builder/static/js/main.76e2147c.chunk.js"
   },
   {
     "revision": "45c454ed295ee4ad5c3f",
