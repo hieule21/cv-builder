@@ -87,7 +87,7 @@ const Login = () => {
           </div>
           <div className="form-func">
             <Checkbox>Remember me</Checkbox>
-            <a href="/" className="forgot-password">
+            <a href="#" className="forgot-password">
               Forgot Password?
             </a>
           </div>

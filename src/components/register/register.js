@@ -5,6 +5,7 @@ import Layout from "../layout/layout";
 import { Alert, Checkbox } from "antd";
 import { UserOutlined, LockOutlined, MailOutlined } from "@ant-design/icons";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   const focusRef = useRef(null);
@@ -117,17 +118,17 @@ const Register = () => {
           <div className="footer">
             <Checkbox>
               By clicking on Sign up, you agree to CV Builder's{" "}
-              <a href="/register">Terms and Conditions of Use</a>.
+              <a href="#">Terms and Conditions of Use</a>.
             </Checkbox>
             <p>
               To learn more about how CV Builder collects, uses, shares and
               protects your personal data please read CV Builder's{" "}
-              <a href="/register">Privacy Policy</a>.
+              <a href="#">Privacy Policy</a>.
             </p>
           </div>
           <button className="btn login">SIGN UP</button>
           <p>
-            Already have an account? <a href="/login">Log in</a>.
+            Already have an account? <Link to="/login">Log in</Link>.
           </p>
         </form>
       </div>

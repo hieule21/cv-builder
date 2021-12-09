@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./App.css";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Redirect,
@@ -17,7 +17,7 @@ function App() {
     setIsAuth(authState.isAuth);
   }, [authState.isAuth]);
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/">
       <Switch>
         <Route path="/login">
           {!isAuth ? <Login /> : <Redirect to="/home"></Redirect>}
@@ -32,7 +32,7 @@ function App() {
           {isAuth ? <Home /> : <Redirect to="/login"></Redirect>}
         </Route>
         <Route path="/project">
-          <Project />
+          {isAuth ? <Project /> : <Redirect to="/login"></Redirect>}
         </Route>
       </Switch>
     </Router>

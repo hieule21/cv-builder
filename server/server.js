@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.static("assets"));
-app.use(express.urlencoded());
+app.use(express.urlencoded({extended: true}));
 
 //Routes
 app.use("/auth", authRouter);
@@ -26,7 +26,7 @@ mongoose.connection.once("open", () => {
   console.log("Connected to DB");
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, (res) => {
   console.log("Server is running...");
 });

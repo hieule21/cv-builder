@@ -2,6 +2,7 @@ import React from "react";
 import "./dashboard.css";
 
 import thomasAvatar from "../../assets/thomasAvatar.jpg";
+import { Link } from "react-router-dom";
 
 import {
   Layout,
@@ -59,9 +60,9 @@ const DashBoard = (props) => {
         <a rel="noopener noreferrer">Settings</a>
       </Menu.Item>
       <Menu.Item>
-        <a href="/login" rel="noopener noreferrer" onClick={handleOnclick}>
+        <p rel="noopener noreferrer" onClick={handleOnclick}>
           Logout
-        </a>
+        </p>
       </Menu.Item>
     </Menu>
   );
